@@ -3,7 +3,9 @@ docker pull ghcr.io/mlflow/mlflow:latest
 
 # create folder
 mkdir mlflow-data
+mkdir -p ~/mlflow-data/artifacts
 cd mlflow-data
+
 
 # run container
 docker run -d \
